@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Breakfast"
+    },
+    {
+      "id": 2,
+      "name": "Lunch"
+    },
+    {
+      "id": 3,
+      "name": "Dinner"
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "link": "https://github.com/ohitsmekatie",
+      "category": 1,
+      "title": "My fav recipe"
+    }
+  ]
+}
