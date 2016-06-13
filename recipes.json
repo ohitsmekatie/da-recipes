@@ -1,4 +1,6 @@
 {
+  "title": "wheee recipes",
+  "categoryHeader": "Categories",
   "categories": [
     {
       "id": 1,
@@ -37,6 +39,7 @@
       "name": "soups"
     }
   ],
+  "recipeHeader": "Recipes",
   "recipes": [
     {
       "id": 1,
