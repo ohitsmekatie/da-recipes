@@ -37,8 +37,14 @@
     {
       "id": 1,
       "link": "https://github.com/ohitsmekatie",
-      "category": 1,
-      "title": "recipeeeeeeeee
+      "categoryId": 1,
+      "title": "recipeeeeeeeee"
+    }
+    {
+      "id": 2,
+      "link": "https://availableforfriendship.com",
+      "categoryId:": 2,
+      "title": "another recipeeeeee"
     }
   ]
 }
