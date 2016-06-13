@@ -2,15 +2,35 @@
   "categories": [
     {
       "id": 1,
-      "name": "Breakfast"
+      "name": "b-fast"
     },
     {
       "id": 2,
-      "name": "Lunch"
+      "name": "lunch"
     },
     {
       "id": 3,
-      "name": "Dinner"
+      "name": "dinner"
+    },
+    {
+      "id":4,
+      "name": "sweets"
+    },
+    {
+      "id":5,
+      "name": "apps"
+    },
+    {
+      "id":6,
+      "name": "sides"
+    },
+    {
+      "id":7,
+      "name": "snacks"
+    },
+    {
+      "id":8,
+      "name": "other"
     }
   ],
   "recipes": [
@@ -18,7 +38,7 @@
       "id": 1,
       "link": "https://github.com/ohitsmekatie",
       "category": 1,
-      "title": "My fav recipe"
+      "title": "recipeeeeeeeee
     }
   ]
 }
