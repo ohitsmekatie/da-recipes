@@ -1,0 +1,79 @@
+<!doctype>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Da Recipes</title>
+    <style>
+      .flexbox-container {
+        display: flex;
+      }
+
+      .flexbox-container .flexbox-col {
+        width: 50%;
+        padding: 10px;
+      }
+
+      .flexbox-container .flexbox-col::first-child {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>wheee recipes</h1>
+    <div class="flexbox-container">
+      <ul id="categories-list" class="flexbox-col"></ul>
+      <ul id="recipes-list" class="flexbox-col"></ul>
+   </div>
+
+    </ul>
+    <script>
+      function RecipeList(el) {
+        this.el = el;
+
+        this.init = function(data) {
+          var fragment = document.createDocumentFragment();
+
+          data.forEach(function(item) {
+            var li = document.createElement('li');
+            var a = document.createElement('a');
+            a.href = item.link;
+            a.target="_blank";
+            a.textContent = item.title
+            li.appendChild(a);
+            fragment.appendChild(li);
+          });
+
+          this.el.appendChild(fragment);
+        };
+      }
+
+      function CategoriesList(el) {
+        this.el = el;
+
+        var fragment = document.createDocumentFragment();
+
+        this.init = function(categories) {
+          categories.forEach(function(category) {
+            var li = document.createElement('li');
+            li.textContent = category.name;
+
+            fragment.appendChild(li);
+          });
+
+          this.el.appendChild(fragment);
+        };
+      }
+
+      var recipes = fetch('recipes.json', {
+        method: 'get' 
+      }).then(function(response) {
+        return response.json();
+      }).then(function(data) {
+        new RecipeList(document.getElementById('recipes-list')).init(data.recipes);
+        new CategoriesList(document.getElementById('categories-list')).init(data.categories);
+      }).catch(function(err) {
+        console.log('An error has occured: ', err);
+      });
+    </script>
+  </body>
+</html>
