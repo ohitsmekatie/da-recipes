@@ -12,10 +12,15 @@ it's 2016 & we are always sharing recipes. instead of texting, chatting, emailin
 * add a new object to the recipes array:
 
 {
+  
   "id": 1, **--> this should be +1 whatever the last link was**
+
   "link": "https://github.com/ohitsmekatie", **--> da recipe URL**
+
   "categoryId": 1, **--> corresponding categoryId (see below)**
+
   "title": "recipeeeeeeeee" **--> title you want to show on the page**
+
 },
 
 ### Categories
