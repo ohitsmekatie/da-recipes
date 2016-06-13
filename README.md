@@ -28,10 +28,17 @@ it's 2016 & we are always sharing recipes. instead of texting, chatting, emailin
 _these can be found in the index.html file_
 
 1 = b-fast
+ 
 2 = lunch
+
 3 = dinner
+
 4 = sweets
+
 5 = apps
+
 6 = sides
+
 7 = snacks
+
 8 = other
