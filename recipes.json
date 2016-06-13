@@ -31,20 +31,103 @@
     {
       "id":8,
       "name": "other"
+    },
+    {
+      "id":9,
+      "name": "soups"
     }
   ],
   "recipes": [
     {
       "id": 1,
-      "link": "https://github.com/ohitsmekatie",
+      "link": "http://www.daringgourmet.com/2014/07/08/vegetarian-sausage-gravy-biscuits/",
       "categoryId": 1,
-      "title": "recipeeeeeeeee"
+      "title": "veggie sausage & gravy w/ biscuits"
     },
     {
       "id": 2,
-      "link": "https://availableforfriendship.com",
-      "categoryId:": 2,
-      "title": "another recipeeeeee"
+      "link": "https://tastespace.wordpress.com/2010/07/08/dill-and-cheddar-beer-bread/",
+      "categoryId:": 8,
+      "title": "cheddar & dill beer bread"
     }
+    {
+      "id": 3,
+      "link": "http://www.daringgourmet.com/2013/01/15/creamy-mushroom-and-tofu-stroganoff/",
+      "categoryId": 3,
+      "title": "tofu stroganoff"
+    },
+    {
+      "id": 4,
+      "link": "http://www.thugkitchen.com/chickpea_tabbouleh",
+      "categoryId:": 6,
+      "title": "chickpea tabbouleh"
+    }
+    {
+      "id": 5,
+      "link": "http://cookieandkate.com/2015/vegan-lentil-soup-recipe/",
+      "categoryId": 9,
+      "title": "lentil soup [THE BEST RECIPE EVER]"
+    },
+    {
+      "id": 6,
+      "link": "http://www.marthastewart.com/313690/pasta-salad-with-goat-cheese-and-arugula",
+      "categoryId:": 6,
+      "title": "pasta salad w/ goat cheese"
+    }
+    {
+      "id": 7,
+      "link": "http://cookieandkate.com/2015/vegan-lentil-soup-recipe/",
+      "categoryId": 9,
+      "title": "lentil soup [THE BEST RECIPE EVER]"
+    },
+    {
+      "id": 8,
+      "link": "http://www.marthastewart.com/312952/curried-lentils-in-tomato-sauce",
+      "categoryId:": 3,
+      "title": "curried lentils"
+    },
+    {
+      "id": 9,
+      "link": "http://cookieandkate.com/2015/raw-beet-salad-with-carrot-quinoa-spinach/",
+      "categoryId:": 6,
+      "title": "beet salad"
+    },
+    {
+      "id": 10,
+      "link": "http://www.bonappetit.com/recipe/herby-corn-salad",
+      "categoryId:": 6,
+      "title": "herby corn salad"
+    },
+    {
+      "id": 11,
+      "link": "http://www.foodnetwork.com/recipes/giada-de-laurentiis/detox-soup.html",
+      "categoryId": 9,
+      "title": "detox soup"
+    },
+    {
+      "id": 12,
+      "link": "http://www.foodnetwork.com/recipes/giada-de-laurentiis/chia-seed-pudding.html",
+      "categoryId": 1,
+      "title": "chia seed pudding"
+    },
+    {
+      "id": 13,
+      "link": "http://www.theppk.com/2010/04/orange-ginger-baked-tofu/",
+      "categoryId": 3,
+      "title": "orange ginger tofu"
+    },
+    {
+      "id": 14,
+      "link": "http://www.the-girl-who-ate-everything.com/2010/06/poppyseed-bread-from-not-so-desperate.html",
+      "categoryId": 4,
+      "title": "poppyseed bread"
+    }
+    {
+      "id": 15,
+      "link": "http://hapanom.com/spicy-thai-curry-noodle-soup/",
+      "categoryId": 9,
+      "title": "thai curry soup"
+    }
+
   ]
 }
