@@ -21,7 +21,7 @@ it's 2016 & we are always sharing recipes. instead of texting, chatting, emailin
 
   "title": "recipeeeeeeeee" **--> title you want to show on the page**
 
-},
+}, **-->comma if adding more than 1 recipe, leave it off if you aren't**
 
 ### Categories
 
